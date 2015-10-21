@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/PartnerImage"
+        android:id="@+id/partnerImage"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/app_camp_for_girls" />
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:text="App Camp For Girls"
         android:id="@+id/nameLabel"
-        android:layout_alignBottom="@+id/PartnerImage"
+        android:layout_alignBottom="@+id/partnerImage"
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/black"
         android:textSize="20sp"
@@ -29,11 +29,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="App Camp For Girls is a place where girls can put their creative powers to work, designing and building apps, while learning more about the business of software and being inspired by women mentors in the field. "
-        android:id="@+id/textView3"
-        android:layout_below="@+id/PartnerImage"
+        android:id="@+id/descriptionLabel"
+        android:layout_below="@+id/partnerImage"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Partner"
+        android:id="@+id/nextButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
 
 </RelativeLayout>

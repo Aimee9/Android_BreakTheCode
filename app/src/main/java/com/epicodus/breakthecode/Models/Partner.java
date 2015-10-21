@@ -16,35 +16,35 @@ public class Partner {
         mImage = image;
     }
 
-    public String getmName() {
+    public String getName() {
         return mName;
     }
 
-    public void setmName(String mName) {
+    public void setName(String mName) {
         this.mName = mName;
     }
 
-    public String getmDescription() {
+    public String getDescription() {
         return mDescription;
     }
 
-    public void setmDescription(String mDescription) {
+    public void setDescription(String mDescription) {
         this.mDescription = mDescription;
     }
 
-    public String getmWebsite() {
+    public String getWebsite() {
         return mWebsite;
     }
 
-    public void setmWebsite(String mWebsite) {
+    public void setWebsite(String mWebsite) {
         this.mWebsite = mWebsite;
     }
 
-    public int getmImage() {
+    public int getImage() {
         return mImage;
     }
 
-    public void setmImage(int mImage) {
+    public void setImage(int mImage) {
         this.mImage = mImage;
     }
 }
